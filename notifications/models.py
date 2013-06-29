@@ -1,6 +1,6 @@
 import datetime
 from django.conf import settings
-from django.contrib.auth.models import User
+User = settings.AUTH_USER_MODEL
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
 from django.db import models
